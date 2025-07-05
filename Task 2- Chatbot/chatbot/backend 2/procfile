@@ -1,0 +1,2 @@
+web: bash -c "python nltk_setup.py && python app.py"
+web: gunicorn app:app

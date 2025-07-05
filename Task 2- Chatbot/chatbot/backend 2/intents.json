@@ -1,0 +1,229 @@
+{
+  "intents": [
+    {
+       
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I help you?"]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": ["Goodbye! Have a nice day."]
+    },
+
+    {
+
+      "tag": "admission_query",
+       "patterns": [
+    "How to apply for admission?",
+    "Admission process?",
+    "Can I join this college?",
+    "Is admission through counseling?",
+    "Do you have direct admission?",
+    "How to join your college?",
+    "When does admission start?"
+  ],
+  "responses": [
+    "Admissions are done through government counseling based on your entrance exam or board exam marks.",
+    "You must register through the official counseling portal (e.g., TNEA for Tamil Nadu) and select our college during choice filling.",
+    "We do not offer direct admission. Please apply through the respective counseling process.",
+    "Visit the official counseling website to apply and check your eligibility and schedule."
+  ]
+    },
+    {
+      "tag": "course_details",
+      "patterns": ["Tell me about available courses", "What courses do you offer?", "List of programs?"],
+      "responses": ["We offer undergraduate, postgraduate, and certificate programs in various disciplines."]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": ["What is the fee?", "Course fee?", "How much does it cost to study here?"],
+      "responses": ["The fee structure varies by course. Please visit our fees page for complete info."]
+    },
+    {
+      "tag": "placement_info",
+      "patterns": ["Do you offer placements?", "Placement record?", "Average package offered?"],
+      "responses": ["Yes, we have a strong placement cell with top recruiters.", "Placement statistics are available on our site."]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": ["When are the exams?", "Exam dates?", "Upcoming exams?"],
+      "responses": ["Check the exam section for detailed schedules and updates."]
+    },
+    {
+      "tag": "result_query",
+      "patterns": ["When will results be announced?", "Check my results", "Exam result date?"],
+      "responses": ["Results are usually posted 15 days after exams.", "Visit the results portal to check."]
+    },
+    {
+      "tag": "online_classes",
+      "patterns": ["Are there online classes?", "How to join online lectures?", "Zoom or Google Meet?"],
+      "responses": ["Yes, classes are held via Google Meet. Links will be shared in your dashboard."]
+    },
+    {
+      "tag": "faculty_info",
+      "patterns": ["Who teaches this course?", "Faculty details?", "Professor name?"],
+      "responses": ["You can view faculty profiles on our website under the 'Faculty' section."]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": ["Academic calendar?", "Holidays?", "Semester schedule?"],
+      "responses": ["Check the calendar section for semester timelines and holidays."]
+    },
+    {
+      "tag": "scholarship_info",
+      "patterns": ["Are scholarships available?", "How to get a scholarship?", "Scholarship eligibility?"],
+      "responses": ["We offer merit and need-based scholarships. Visit our scholarships page for details."]
+    },
+    {
+      "tag": "library_access",
+      "patterns": ["How to access library?", "Ebooks?", "Library timings?"],
+      "responses": ["Our digital library is accessible 24/7 via your student login."]
+    },
+    {
+      "tag": "hostel_facility",
+      "patterns": ["Do you have hostels?", "Hostel fee?", "Room sharing?"],
+      "responses": ["Yes, both boy's and girl's hostels are available with mess and Wi-Fi facilities."]
+    },
+
+    {
+      "tag": "contact_support",
+      "patterns": ["Help desk contact?", "Who to contact?", "Support team?"],
+      "responses": ["Email us at support@college.edu or call our helpline at 1800-000-123."]
+    },
+    
+    {
+  "tag": "college_timing",
+  "patterns": [
+    "What are the college timings?",
+    "When does the college start?",
+    "At what time does college open?",
+    "College working hours?",
+    "What time classes start?",
+    "Tell me the daily schedule",
+    "College open and close time?",
+    "What is the timetable for regular days?"
+  ],
+  "responses": [
+    "The college typically starts at 8:30 AM and ends by 3:00 PM from Monday to Saturday.",
+    "Our regular working hours are 8:30 AM to 3:00 PM, with a lunch break from 11:10 PM to 12:10 PM.",
+    "Classes begin at 8:30 AM and usually end around 3:00 PM. Timetables may vary slightly by department."
+  ]
+},
+{
+  "tag": "fee_payment",
+  "patterns": [
+    "How to pay fees?",
+    "Where can I pay my fees?",
+    "Is online fee payment available?",
+    "Steps to pay college fee",
+    "Can I pay the fees online?",
+    "Fee payment procedure?",
+    "How do I pay my tuition?",
+    "What is the process to pay fees?"
+  ],
+  "responses": [
+    "You can pay the fees online through the student portal or directly at the college office.",
+    "Yes, fees can be paid online via net banking, UPI, or card, or you can visit the office to pay in person.",
+    "Both online and offline (in-office) payment options are available. Choose whichever is convenient for you."
+  ]
+},
+{
+  "tag": "thanks",
+  "patterns": [
+    "Thanks",
+    "Thank you",
+    "Thank you so much",
+    "Thanks a lot",
+    "I appreciate it",
+    "That's helpful",
+    "Thanks for the help"
+  ],
+  "responses": [
+    "You're welcome!",
+    "Glad I could help!",
+    "Anytime! Let me know if you have more questions.",
+    "You're most welcome!"
+  ]
+},
+{
+  "tag": "wifi_facility",
+  "patterns": [
+    "Is WiFi available in college?",
+    "Do we have access to WiFi?",
+    "Tell me about the internet facility",
+    "Is there WiFi for students?",
+    "Can I use college WiFi?"
+  ],
+  "responses": [
+    "Yes, WiFi facility is available on campus. Students can access it using their credentials.",
+    "WiFi is provided in specific areas of the college, and login access is given to students."
+  ]
+},
+{
+  "tag": "college_rules",
+  "patterns": [
+    "What are the college rules?",
+    "Tell me about the college rules",
+    "Are there any rules to follow?",
+    "What is the code of conduct?",
+    "Give me the rules of the college"
+  ],
+  "responses": [
+    "Students are expected to maintain discipline, attend classes regularly, and adhere to the college's code of conduct.",
+    "The college has rules regarding attendance, behavior, dress code, and use of mobile phones. Please refer to the student handbook for full details."
+  ]
+},
+{
+  "tag": "dress_code",
+  "patterns": [
+    "dresscode",
+    "Is there any dress code in college?",
+    "Do I have to wear uniform?",
+    "What is the dress code policy?",
+    "Tell me about the college dress code",
+    "Should we follow a specific dress code?"
+  ],
+  "responses": [
+    "Yes, students are required to follow the prescribed dress code.",
+    "The college maintains a formal dress code. Students should avoid wearing casual attire inside the campus.",
+    "The college maintains a strict dress code. Girls must wear chudidhar with dupatta, and boys must wear full-sleeve formal shirts and pants. Casuals and half-sleeve shirts are not permitted."
+  ]
+},
+{
+  "tag": "mobile_restrictions",
+  "patterns": [
+    "Can we use mobile phones in college?",
+    "Are phones allowed inside campus?",
+    "Is mobile usage allowed?",
+    "What are the rules about mobile phones?",
+    "Are there restrictions on phone use?"
+  ],
+  "responses": [
+    "Mobile phone usage is restricted during class hours. Students are expected to keep their phones in silent mode or switched off.",
+    "Using mobile phones during lectures or inside classrooms is strictly prohibited. Violations may lead to disciplinary action."
+  ]
+},
+{
+  "tag": "transportation",
+  "patterns": [
+    "Is there transportation available?",
+    "Tell me about college bus facility",
+    "Do you provide transport service?",
+    "How can I travel to college?",
+    "Is there a college bus?",
+    "What are the transportation options?",
+    "Does the college have bus routes?"
+  ],
+  "responses": [
+    "Yes, the college provides transportation facilities with multiple bus routes covering nearby towns and cities.",
+    "College buses operate on all working days and cover various locations. Students can check the bus schedule and register for transport services through the admin office."
+  ]
+}
+
+
+
+  ]
+}
